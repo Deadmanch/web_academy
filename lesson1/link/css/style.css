@@ -1,0 +1,35 @@
+
+.wrapper {
+    background: #000000;
+    display: flex;
+    padding: 10px;
+}
+
+a {
+    margin-right: 10px;
+}
+
+.red {
+    color: red;
+    position: relative;
+}
+
+.blue {
+    color: darkturquoise;
+    position: relative;
+}
+
+.red::after,
+.blue::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 15px;
+    top: 3px;
+    right: -6px;
+    background-color: #ffffff;
+}
+
+.yellow {
+    color: yellow;
+}

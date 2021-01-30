@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 18px;
+    background: #f2f2f2;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1300px;
+    padding: 0 15px;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 0 0 1px rgba(0,0,0,.07);
+}
+
+.start-info {
+    padding: 50px 0 15px 0;
+}
+
+.start-info-title {
+    font-size: 35px;
+    margin: 10px 0 20px;
+    font-size: 700;
+    color: #1d211f;
+}
+
+.start-info i {
+    margin-top: 25px;
+}
+
+.start-info-img {
+    display:block;
+    max-width: 100%;
+    margin: 20px auto 0;
+}
+
+.ingredients {
+    padding: 15px 0;
+}
+
+.time__cook {
+    display: flex;
+    justify-content: space-around;
+}
+
+.time__cook-title {
+    color: #a5b1ad;
+    margin-top: 15px;
+}
+
+.time__cook-desc {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.ingredients-info {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recipe-1 {
+    width: 560px;
+}
+
+.recipe-2 {
+   width: 560px; 
+}
+
+.ingridients__title {
+    margin-top: 30px;
+    font-size: 30px;
+    color: #1d211f;
+}
+
+.ingridients__list {
+    margin-top: 25px;
+}
+
+.ingridients__item {
+    color: #1d211f;
+    text-align: left;
+    border-bottom: 1px solid #e7e9e7;
+    padding: 10px 0 5px;
+}
+
+.recipe__info {
+    padding: 15px 0;
+}
+
+.recipe__info-title {
+    font-size: 30px;
+    margin: 15px 0;
+    text-align: left;
+    font-weight: 700;
+}
+
+.recipe__info-step {
+    max-width: 870px;
+    line-height: 1.5;
+    color: #1d211f;
+    text-align: left;
+}
+
+.recipe__step-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #1d211f;
+    text-align: left;
+    margin: 15px 0;
+}
+
+.recipe__step-img {
+    max-width: 100%;
+    margin: 0 0 20px;
+}   
+
+.recipe__author-text {
+    padding: 20px 0;
+    font-size: 16px;
+    color: #1d211f;
+    text-align: left;
+}
+
+.recipe__author-text span {
+    display: block;
+    margin-top: 5px;
+    font-size: 13px;
+    font-style: italic;
+    padding-right: 15px;
+}
+
