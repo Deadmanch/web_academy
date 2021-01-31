@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.statistic__content {
+  max-width: 410px;
+  width: 100%;
+  min-height: 550px;
+  height: 100%;
+  box-shadow: 0px 32px 20px rgba(4, 22, 87, 0.0873306);
+  border-radius: 20px;
+  margin: 100px auto;
+  padding-left: 45px;
+  padding-top: 45px;
+  padding-bottom: 64px;
+}
+
+.statistic__title {
+  line-height: 43px;
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.row {
+  font-size: 16px;
+  color: #000000;
+}
+
+.row__bold {
+  font-size: 36px;
+  color: #10182f;
+  margin-top: 45px;
+}
+
+.devider {
+  margin-right: 40px;
+  margin-top: 45px;
+  width: 320px;
+  height: 1px;
+  background-color: #cbd0e1;
+  border: none;
+}
+
+.statisic__text {
+  font-size: 28px;
+  margin-top: 82px;
+  margin-bottom: 12px;
+  margin-right: 78px;
+}
+
+.statisic__text span + span {
+  margin-left: 78px;
+}
+
+.statistic__item {
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 71px;
+}
+
+.statistic__item span + span {
+  margin-left: 100px;
+}
+
+.likes {
+  position: relative;
+  padding-left: 25px;
+}
+.likes::after {
+  content: "";
+  position: absolute;
+  background-image: url(../img/likes.png);
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+}
+
+.comments {
+  position: relative;
+  padding-left: 25px;
+}
+
+.comments::after {
+  content: "";
+  position: absolute;
+  background-image: url(../img/comments.png);
+  width: 18px;
+  height: 18px;
+  top: 0;
+  left: 0;
+}
+
+.statistic__btn {
+  font-size: 16px;
+  background-color: #ffcf54;
+  border-radius: 29px;
+  color: #000000;
+  display: block;
+  text-align: center;
+  max-width: 242px;
+  width: 100%;
+  min-height: 58px;
+  margin-left: 34px;
+  margin-right: auto;
+  position: relative;
+  line-height: 58px;
+}
+
+.statistic__btn:hover {
+  background-color: green;
+}
+
+.statistic__btn:focus {
+  color: #ffff;
+}
+
+.statistic__btn::before {
+  content: "";
+  position: absolute;
+  background-image: url(../img/arrow-right.png);
+  width: 14px;
+  height: 14px;
+  top: 22px;
+  right: 25px;
+}
