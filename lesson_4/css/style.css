@@ -59,6 +59,10 @@ a {
   right: 10px;
 }
 
+.main__img {
+  max-width: 100%;
+}
+
 .main__bottom {
   background: rgba(196, 196, 196, 0.21);
   max-width: 373px;
