@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+body {
+  height: 100vh;
+  background-color: #273c56;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-page {
+  max-width: 1220px;
+  width: 100%;
+  background-color: #152436;
+  box-shadow: 0px 36px 24px -29px rgba(13, 29, 49, 0.621066);
+  border-radius: 10px;
+  padding: 80px 126px;
+  margin: 332px auto;
+}
+
+.main__title {
+  font-size: 26px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.main__wrapper {
+  margin-top: 85px;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  text-align: center;
+}
+
+.main__advantages {
+  font-size: 48px;
+}
+
+.main__advantages__title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.main__advantages span {
+  margin-top: 24px;
+  display: block;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.main__advantages + .main__advantages {
+  margin-left: 55px;
+}
+
+.main__link {
+  text-align: center;
+  margin-top: 97px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.main__link a {
+  color: #456aff;
+}
+
+.main__link a:hover {
+  color: #000000;
+}
