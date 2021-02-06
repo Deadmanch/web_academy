@@ -205,12 +205,12 @@ html {
 .footer__inner {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   min-height: 126px;
   max-width: 1257px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 51px;
+  padding: 17px 51px;
 }
 
 .footer__copyright-desc,
