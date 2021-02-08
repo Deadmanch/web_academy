@@ -32,7 +32,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 126px;
+  min-height: 12vh;
   max-width: 1257px;
   width: 100%;
   margin: 0 auto;
@@ -97,7 +97,7 @@ html {
 .main__content-avatar {
   background-color: #e6dace;
   width: 40%;
-  min-height: 952px;
+  min-height: 75vh;
   display: flex;
   justify-content: flex-end;
 }
@@ -109,7 +109,7 @@ html {
   padding: 51px 77px 103px;
   text-align: center;
   position: relative;
-  top: 163px;
+  top: 92px;
   right: -43px;
   height: 525px;
 }
@@ -153,8 +153,8 @@ html {
 
 .main__content-column {
   width: 60%;
-  min-height: 952px;
-  padding: 190px 80px 30px;
+  min-height: 75vh;
+  padding: 123px 80px 30px;
 }
 
 .main__content-title {
@@ -206,7 +206,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  min-height: 126px;
+  min-height: 13vh;
   max-width: 1257px;
   width: 100%;
   margin: 0 auto;
