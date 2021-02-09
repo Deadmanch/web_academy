@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Жилье Airbnb Plus</title>
+    <link rel="stylesheet" href="./css/variable.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+    <header class="page-header" id="header">
+        <nav class="page-nav">
+            <button class="page-nav__toggle" id="btn"></button>
+            <ul class="page-nav__menu">
+                <li class="page-nav__item"><a class="page-nav__link" href="#">Shop</a></li>
+                <li class="page-nav__item"><a class="page-nav__link" href="#">Home</a></li>
+                <li class="page-nav__item"><a class="page-nav__link" href="#">About</a></li>
+                <li class="page-nav__item"><a class="page-nav__link" href="#">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="page-content">
+        <section class="main-banner main-banner__large">
+            <div class="main-banner__content">
+                <figure class="main-banner__img banner"></figure>
+            </div>
+            <form class="form-reservation" action="#" method="post">
+                <h2 class="form-title">Бронируйте <br>
+                    уникальное жилье</h2>
+                <label for="where-reservation">Где</label>
+                <input id="where-reservation" type="text" name="User-reservation">
+                <div class="form__raw">
+                    <label for="arrival">Прибытие</label>
+                    <label for="check-out">Выезд</label>
+                </div>
+                <div class="form__raw">
+                    <input id="arrival" type="text" name="User-arrival">
+                    <input id="check-out" type="text" name="User-check__out">
+                </div>
+                <div class="form__raw">
+                    <span class="input-name">Взрослые</span>
+                    <span class="input-name">Дети</span>
+                </div>
+                <input type="text" name="User-quantity">
+                <a href="#" class="form-btn__search">Начать поиск</a>
+            </form>
+        </section>
+    </main>
+
+    <script>
+        btn.addEventListener('click', () => {
+            header.classList.toggle('page-header_active');
+        });
+    </script>
+</body>
+
+</html>

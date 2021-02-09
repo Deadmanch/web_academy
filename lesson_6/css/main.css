@@ -1,0 +1,113 @@
+:root {
+    --main-banner__img-width: 1920px;
+    --main-banner__img-height:1168px;
+    --main-banner__img-url: url(../img/main-banner-large.png);
+    --form-label__font-size:12px;
+    --form-label__color:#484848;
+  }
+
+  .main-banner {
+    height: 1168px;
+  }
+
+  .main-banner__content {
+    width: 100%;
+    max-width: 2048px;
+    height: 100%;
+  }
+
+  .main-banner__img {
+      max-width: var(--main-banner__img-width);
+      height: var(--main-banner__img-height);
+      background-image: var(--main-banner__img-url);
+  }
+
+  .form-reservation {
+      width: 441px;
+      height: 475px;
+      background-color: #fff;
+      box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.12);
+      border-radius: 4px;
+      position: absolute;
+      top: 30%;
+      left: 20%;
+      padding: 15px 32px 24px;
+  }
+
+  .form-title {
+    font-size: 30px;
+    color: #222222;
+  }
+
+  .form-reservation label,
+  .form__raw label,
+    .form__raw span{
+      font-size: var(--form-label__font-size);
+      color: var(--form-label__color);
+  }
+.form-reservation label,
+.form__raw input{
+    display: block;
+    margin-top: 24px;
+
+}
+  .form-reservation input {
+      background: #FFFFFF;
+      border-radius: 4px;
+      border: 1px solid #EBEBEB;
+      width: 377px;
+      height: 48px;
+      margin-top: 15px;
+  }
+
+  .form__raw  {
+      display: flex;
+  }
+
+  .form__raw input {
+      width: 50%;
+  }
+  .form__raw label,
+  .form__raw span{
+      margin-top: 15px;
+    margin-right: 127px;
+      text-transform: uppercase;
+  }
+
+  .form-btn__search {
+    background: #FF5A5F;
+    border-radius: 4px;
+    max-width: 153px;
+    width: 100%;
+    min-height: 48px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 48px;
+    display: inline-block;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    margin-left: 224px;
+}
+
+.form-btn__search:hover,
+.form-btn__search:focus{
+    background: #000;
+    color: rgb(209, 134, 134);;
+}
+
+
+@media screen and (max-width: 600px) {
+    .form-reservation {
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 321px) {
+    :root {
+        --main-banner__img-width: 320px;
+        --main-banner__img-height:  339px;
+        --main-banner__img-url: url(../img/main-banner_small.png);
+}
+
+}
