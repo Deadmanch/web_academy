@@ -101,8 +101,7 @@
     .form-reservation {
         display: none;
     }
-    
-}
+  }
 @media screen and (max-width: 321px) {
     :root {
         --main-banner__img-width: 320px;
