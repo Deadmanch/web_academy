@@ -1,0 +1,40 @@
+.page-header {
+  background: #fff;
+}
+.page-header .header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 12vh;
+  max-width: 1257px;
+  width: 100%;
+  padding: 0 20px;
+}
+.page-header .logo__title {
+  color: #000;
+  font-weight: 700;
+  font-size: 34px;
+}
+.page-header .logo__title:hover {
+  color: #acacac;
+  cursor: pointer;
+}
+.page-header .logo__subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+}
+.page-header .logo__subtitle:hover {
+  color: #acacac;
+  cursor: pointer;
+}
+.page-header .page-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.page-header .page-nav__menu {
+  list-style: none;
+  display: flex;
+}
+
+/*# sourceMappingURL=header.css.map */

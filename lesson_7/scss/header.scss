@@ -1,0 +1,43 @@
+@mixin header-hover {
+  color: #acacac;
+  cursor: pointer;
+}
+
+.page-header {
+  background: #fff;
+
+  .header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 12vh;
+    max-width: 1257px;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .logo__title {
+    color: #000;
+    font-weight: 700;
+    font-size: 34px;
+    &:hover {
+      @include header-hover;
+    }
+  }
+  .logo__subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+    &:hover {
+      @include header-hover;
+    }
+  }
+  .page-nav {
+    display: flex;
+    justify-content: space-between;
+    &__menu {
+      list-style: none;
+      display: flex;
+    }
+  }
+}
