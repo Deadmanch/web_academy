@@ -1,0 +1,88 @@
+@import "./media-mixins.scss";
+
+.page-header {
+  background: #050505;
+
+  &__container {
+    display: flex;
+    justify-content: flex-end;
+    min-height: 60px;
+    align-items: center;
+    padding: 0 19px;
+    @include tablet {
+      justify-content: center;
+    }
+    @include mobile {
+      justify-content: flex-end;
+    }
+  }
+}
+
+.page-nav {
+  &__toggle {
+    display: none;
+    width: 36px;
+    height: 36px;
+    color: #fff;
+    background: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    @include mobile {
+      display: initial;
+    }
+  }
+  &__menu {
+    display: flex;
+
+    @include mobile {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      flex-direction: column;
+      background-color: #474646;
+      width: 325px;
+      min-height: calc(100vh - 60px);
+      height: 100%;
+      justify-content: flex-start;
+      align-items: stretch;
+      padding: 30px 0;
+      transform: translateX(0);
+      transition: all 0.3s;
+
+      &-active {
+        transform: translateX(-100%);
+      }
+    }
+  }
+  &__link {
+    display: inline-block;
+    margin-right: 23px;
+
+    @include mobile {
+      justify-content: flex-start;
+    }
+  }
+  &__item {
+    @include mobile {
+      padding-top: 14px;
+      padding-left: 35px;
+      &:last-child {
+        position: absolute;
+        bottom: 0;
+        padding-bottom: 20px;
+        border-top: 1px solid #ffffff;
+        width: 100%;
+
+        &:last-child::after {
+          content: "";
+          position: absolute;
+          background-image: url(../assets/img/star.svg);
+          width: 27px;
+          height: 27px;
+          top: 12px;
+          right: 20px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-size: 18px;
+  background: #fff;
+  overflow-x: hidden;
+  position: relative;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=base.css.map */
