@@ -1,0 +1,115 @@
+.page-footer {
+  background-color: #0a0909;
+  min-height: 400px;
+  position: relative;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0 50px;
+}
+@media screen and (max-width: 767px) {
+  .footer-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.footer-menu {
+  width: 200px;
+  margin-right: 40px;
+}
+@media screen and (max-width: 767px) {
+  .footer-menu {
+    margin-top: 40px;
+  }
+}
+.footer-menu__list {
+  margin-top: 10px;
+}
+.footer-menu__link {
+  color: #fff;
+  font-size: 18px;
+}
+.footer-menu__link:hover {
+  color: #acacac;
+  cursor: pointer;
+}
+
+.footer-subscribe {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-left: 60px;
+}
+@media screen and (max-width: 767px) {
+  .footer-subscribe {
+    margin-left: 0;
+  }
+}
+
+.form-footer__label {
+  color: #acacac;
+  display: block;
+}
+
+.form-footer__input {
+  outline: none;
+  margin-top: 15px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding: 5px 0 15px 0;
+  max-width: 430px;
+  width: 100%;
+  background-color: transparent;
+  color: #fff;
+}
+.form-footer__input::placeholder {
+  color: #fff;
+}
+.form-footer__input:focus, .form-footer__input:active {
+  border-bottom: 1px solid #cc4e4e;
+}
+
+.form-footer__btn {
+  margin-left: 15px;
+  min-width: 200px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  color: #000;
+  background-color: #fff;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 700;
+  font-size: 15px;
+}
+.form-footer__btn:hover {
+  color: #fff;
+  background-color: #5656bd;
+}
+@media screen and (max-width: 767px) {
+  .form-footer__btn {
+    margin-top: 15px;
+    margin-bottom: 45px;
+    margin-left: 0;
+    max-width: 429px;
+    width: 100%;
+  }
+}
+
+.footer__copyright {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #8a8a8a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+/*# sourceMappingURL=footer.css.map */

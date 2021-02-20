@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My site 28</title>
+    <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/footer.css">
@@ -19,17 +20,17 @@
                 <div class="logo__subtitle">Funky Printed Bags</div>
             </a>
             <nav class="page-nav">
-                <ul class="page-nav__menu">
-                    <li class="page-nav-item">
-                        <a href="#" class="page-nav__link page-nav__link--active">Shop</a>
+                <ul class="page-nav__menu page-nav__menu-active" id="mobile">
+                    <li class="page-nav__item">
+                        <a href="#shop" class="page-nav__link page-nav__link">Shop</a>
                     </li>
-                    <li class="page-nav-item">
-                        <a href="#" class="page-nav__link">About</a>
+                    <li class="page-nav__item">
+                        <a href="#about" class="page-nav__link">About</a>
                     </li>
-                    <li class="page-nav-item">
+                    <li class="page-nav__item">
                         <a href="#" class="page-nav__link">FAQ</a>
                     </li>
-                    <li class="page-nav-item">
+                    <li class="page-nav__item">
                         <a href="#" class="page-nav__link">Contact</a>
                     </li>
                 </ul>
@@ -48,9 +49,198 @@
                     </li>
                 </ul>
                 <a href="#" class="header__basket">Basket</a>
+                <button class="menu__btn" id="btn">
+                    <div class="menu__btn-line"></div>
+                    <div class="menu__btn-line"></div>
+                    <div class="menu__btn-line"></div>
+                </button>
             </nav>
         </div>
     </header>
+
+    <main class="main-page">
+        <section class="section-product" id="shop">
+            <div class="product-card__wrapper">
+                <a class="section-product__link" href="#">
+                    <figure class="product-card">
+                        <img class="product-card__img" src="./assets/img/product_2.png" alt="">
+                        <figurecaption class="product-card__title">I'm a product</figurecaption>
+                        <span class="product-card__price">€15.00</span>
+                    </figure>
+                </a>
+            </div>
+
+            <div class="product-card__wrapper">
+                <a class="section-product__link" href="#">
+                    <figure class="product-card">
+                        <img class="product-card__img" src="./assets/img/product_1.png" alt="">
+                        <figurecaption class="product-card__title">I'm a product</figurecaption>
+                        <span class="product-card__price">€15.00</span>
+                    </figure>
+                </a>
+            </div>
+            <div class="product-card__wrapper">
+                <a class="section-product__link" href="#">
+                    <figure class="product-card">
+                        <img class="product-card__img" src="./assets/img/product_1.png" alt="">
+                        <figurecaption class="product-card__title">I'm a product</figurecaption>
+                        <span class="product-card__price">€15.00</span>
+                    </figure>
+                </a>
+            </div>
+            <div class="product-card__wrapper">
+                <a class="section-product__link" href="#">
+                    <figure class="product-card">
+                        <img class="product-card__img" src="./assets/img/product_2.png" alt="">
+                        <figurecaption class="product-title">I'm a product</figurecaption>
+                        <span class="product-card__price">€15.00</span>
+                    </figure>
+                </a>
+            </div>
+            <div class="product-card__wrapper">
+                <a class="section-product__link" href="#">
+                    <figure class="product-card">
+                        <img class="product-card__img" src="./assets/img/product_1.png" alt="">
+                        <figurecaption class="product-card__title">I'm a product</figurecaption>
+                        <span class="product-card__price">€15.00</span>
+                    </figure>
+                </a>
+            </div>
+            <div class="product-card__wrapper">
+                <a class="section-product__link" href="#">
+                    <figure class="product-card">
+                        <img class="product-card__img" src="./assets/img/product_2.png" alt="">
+                        <figurecaption class="product-card__title">I'm a product</figurecaption>
+                        <span class="product-card__price">€15.00</span>
+                    </figure>
+                </a>
+            </div>
+            <div class="product-card__wrapper">
+                <a class="section-product__link" href="#">
+                    <figure class="product-card">
+                        <img class="product-card__img" src="./assets/img/product_1.png" alt="">
+                        <figurecaption class="product-card__title">I'm a product</figurecaption>
+                        <span class="product-card__price">€15.00</span>
+                    </figure>
+                </a>
+            </div>
+            <div class="product-card__wrapper">
+                <a class="section-product__link" href="#">
+                    <figure class="product-card">
+                        <img class="product-card__img" src="./assets/img/product_2.png" alt="">
+                        <figurecaption class="product-card__title">I'm a product</figurecaption>
+                        <span class="product-card__price">€15.00</span>
+                    </figure>
+                </a>
+            </div>
+            <div class="product-card__wrapper">
+                <a class="section-product__link" href="#">
+                    <figure class="product-card">
+                        <img class="product-card__img" src="./assets/img/product_2.png" alt="">
+                        <figurecaption class="product-card__title">I'm a product</figurecaption>
+                        <span class="product-card__price">€15.00</span>
+                    </figure>
+                </a>
+            </div>
+            <div class="product-card__wrapper">
+                <a class="section-product__link" href="#">
+                    <figure class="product-card">
+                        <img class="product-card__img" src="./assets/img/product_1.png" alt="">
+                        <figurecaption class="product-card__title">I'm a product</figurecaption>
+                        <span class="product-card__price">€15.00</span>
+                    </figure>
+                </a>
+            </div>
+            <div class="product-card__wrapper">
+                <a class="section-product__link" href="#">
+                    <figure class="product-card">
+                        <img class="product-card__img" src="./assets/img/product_2.png" alt="">
+                        <figurecaption class="product-card__title">I'm a product</figurecaption>
+                        <span class="product-card__price">€15.00</span>
+                    </figure>
+                </a>
+            </div>
+            <div class="product-card__wrapper">
+                <a class="section-product__link" href="#">
+                    <figure class="product-card">
+                        <img class="product-card__img" src="./assets/img/product_1.png" alt="">
+                        <figurecaption class="product-card__title">I'm a product</figurecaption>
+                        <span class="product-card__price">€15.00</span>
+                    </figure>
+                </a>
+            </div>
+        </section>
+
+        <section class="page-section__about" id="about">
+            <div class="container">
+                <h2 class="section-about__title">About</h2>
+                <p class="section-about__text">I'm a paragraph. Click here to add your own text and edit me. It’s easy.
+                    Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m
+                    a great place for you to tell a story and let your users know a little more about you</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="footer-top">
+                <ul class="footer-menu">
+                    <li class="footer-menu__list">
+                        <a href="#" class="footer-menu__link">Shipping & Returns</a>
+                    </li>
+                    <li class="footer-menu__list">
+                        <a href="#" class="footer-menu__link">Store Policy</a>
+                    </li>
+                    <li class="footer-menu__list">
+                        <a href="#" class="footer-menu__link">Payment Methods</a>
+                    </li>
+                </ul>
+                <ul class="footer-menu">
+                    <li class="footer-menu__list">
+                        <a href="#" class="footer-menu__link">Contact</a>
+                    </li>
+                    <li class="footer-menu__list">
+                        <a href="tel:123-456-7890" class="footer-menu__link">Tel: 123-456-7890</a>
+                    </li>
+                    <li class="footer-menu__list">
+                        <a href="mailto:info@my-domain.com" class="footer-menu__link">info@my-domain.com</a>
+                    </li>
+                </ul>
+                <ul class="footer-menu">
+                    <li class="footer-menu__list">
+                        <a href="#" class="footer-menu__link">Facebook</a>
+                    </li>
+                    <li class="footer-menu__list">
+                        <a href="#" class="footer-menu__link">Instagram</a>
+                    </li>
+                    <li class="footer-menu__list">
+                        <a href="#" class="footer-menu__link">Pinterest</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="footer-subscribe">
+                <form class="form-footer__subscribe" action="#">
+                    <label class="form-footer__label" for="email">Email</label>
+                    <input class="form-footer__input" name="UserEmail" id="email" type="email"
+                        placeholder="Enter your email here*">
+                    <button class="form-footer__btn" type="submit">Subscribe Now</button>
+                </form>
+            </div>
+
+            <div class="footer__copyright">
+                <span class="footer__copyright-text">© 2023 by Tote. Proudly created with <a href="#">Wix.com</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        btn.addEventListener('click', () => {
+            mobile.classList.toggle('page-nav__menu-active');
+        });
+    </script>
 </body>
 
 </html>

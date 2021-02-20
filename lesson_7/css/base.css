@@ -18,12 +18,20 @@ body {
 
 a {
   text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  list-style: none;
 }
 
 html {
   font-family: "Arial", sans-serif;
   font-weight: 400;
   font-size: 17px;
+  color: #000;
+  scroll-behavior: smooth;
 }
 
 /*# sourceMappingURL=base.css.map */
