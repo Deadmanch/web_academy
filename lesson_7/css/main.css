@@ -11,10 +11,9 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   .section-product {
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
   }
 }
 .section-product__link {
@@ -48,7 +47,7 @@
   height: 1px;
   background-color: #000;
   top: 15px;
-  right: 143px;
+  right: 45%;
 }
 
 .page-section__about {
