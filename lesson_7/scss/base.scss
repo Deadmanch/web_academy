@@ -1,6 +1,10 @@
 @import "./mixins";
 @import "./media-mixins";
 
+html,
+body {
+  overflow-x: hidden;
+}
 * {
   box-sizing: border-box;
 }
