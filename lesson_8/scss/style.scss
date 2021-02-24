@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(rgb(52, 55, 255), rgb(126, 71, 255));
+    height: 100vh;
+}
+* {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p,
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul,
+li {
+  list-style: none;
+}
+
+#traffic-light {
+    width: 178px;
+    height: 500px;
+    background: #222;
+    border-radius: 8px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .light {
+      margin-top: 15px;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 8px;
+    opacity: 0.2;
+    transition: opacity 0.2s;
+    cursor: pointer;
+}
+.light_active {
+    opacity: 1;
+}
+  
+  .light_red {
+    background: red;
+  }
+  .light_yellow {
+    background: yellow;
+  }
+  .light_green {
+    background: green;
+  }
