@@ -1,26 +1,14 @@
-(() => {
-    function lighter(wrapper) {
-      const elements = wrapper.querySelectorAll('.light');
-      const ActiveClassName = 'light_active';
-  
-      function toggleOff() {
-        for (const element of elements) {
-          element.classList.remove(ActiveClassName);
-        }
-      }
-  
-      function toggleOn() {
-        toggleOff();
-        this.classList.add(ActiveClassName);
-      }
-  
-      for (const element of elements) {
-        element.addEventListener('click', toggleOn);
-      }
-    }
-    const lighters = document.querySelectorAll('#traffic-light');
+const lights = document.querySelectorAll('.light');
 
-  for (const el of lighters) {
-    lighter(el);
+const toggleOff = () => {
+    for (let light of lights) {
+        light.classList.remove('light_active');
+    }
 }
-})();
+
+lights.forEach((light) => {
+    light.addEventListener('click', () => {
+        toggleOff();
+        light.classList.add('light_active');
+    })
+});
