@@ -48,6 +48,8 @@ li {
     opacity: 0.2;
     transition: opacity 0.2s;
     cursor: pointer;
+    outline: none;
+    border: none;
 }
 .light_active {
   opacity: 1;
