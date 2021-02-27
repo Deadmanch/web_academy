@@ -1,0 +1,107 @@
+body {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.slider-container {
+  max-width: 1000px;
+  position: relative;
+  margin: 100px auto;
+}
+
+.slider__content {
+  display: none;
+}
+.slider__content-number {
+  position: absolute;
+  top: 0px;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+.slider__content-img {
+  width: 100%;
+}
+.slider__content-text {
+  position: absolute;
+  color: white;
+  text-align: center;
+  bottom: 10px;
+  font-size: 25px;
+  padding: 10px;
+  width: 100%;
+}
+
+.slider-prev, .slider-next {
+  position: absolute;
+  top: 50%;
+  padding: 20px;
+  color: #dddddd;
+  transition: all 0.3s ease;
+  width: auto;
+  margin-top: -30px;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+}
+.slider-prev:hover, .slider-next:hover {
+  background-color: rgba(190, 75, 75, 0.8);
+  color: #000;
+}
+
+.slider-next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.active {
+  -webkit-animation-name: active;
+  -webkit-animation-duration: 1.5s;
+  animation-name: active;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes active {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes active {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
