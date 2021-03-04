@@ -1,0 +1,76 @@
+@import "../scss/mixins.scss";
+
+body {
+    background: #003471;
+    font-family: 'Roboto', sans-serif;
+    @include body-text;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  ul,
+  ol,
+  p,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  ul,
+  li {
+    list-style: none;
+  }
+
+  .content {
+    margin: 100px 50px;
+  }
+
+  .main__title {
+    font-size: 42px;
+  }
+
+  .widget {
+      background-color: #AF16B3;
+      margin: 0;
+      padding: 18px 6px 6px;
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      &__img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    &__title {
+        line-height: 18px;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    &-aqua {
+      background-color: #16B3A9;
+    }
+    &-yellow {
+      background-color: #D09D18;
+    }
+    &-green {
+      background-color: #16B34B;
+    }
+    &-red {
+      background-color: #B31616;
+    }
+    &-black {
+      background-color: #000C16;
+    }
+  }
+
+
