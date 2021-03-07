@@ -1,0 +1,8 @@
+@mixin html-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+@mixin background-color__btn {
+    background-color: #ff6464;
+}

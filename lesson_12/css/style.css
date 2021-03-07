@@ -1,0 +1,98 @@
+.button_wrapper {
+  max-width: 1200px;
+  margin: 100px auto;
+  text-align: center;
+  position: relative;
+  height: 100vh;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: none;
+  outline: none;
+  background-color: #ff6464;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.5s;
+}
+.btn:hover {
+  background-color: #ff4b4b;
+  color: #000;
+}
+.btn-title {
+  color: #292020;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.modal {
+  display: none;
+  position: absolute;
+  max-width: 241px;
+  width: 100%;
+  min-height: 188px;
+  padding: 20px 15px;
+  background-color: #ff6464;
+  top: 26%;
+  left: 46%;
+  transform: translate(-26%, -46%);
+  border-radius: 5px;
+}
+.modal-active {
+  display: initial;
+}
+.modal__level, .modal__lesson {
+  text-align: left;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+}
+.modal__lesson {
+  font-weight: 400;
+  padding-top: 5px;
+}
+.modal-btn__theory, .modal-btn__start {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  display: block;
+  background-color: transparent;
+  margin-top: 30px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  font-size: 19px;
+  text-align: center;
+  color: #ffffff;
+  max-width: 254px;
+  width: 100%;
+  min-height: 43px;
+  height: 100%;
+  border-radius: 3px;
+  text-transform: uppercase;
+  margin-right: auto;
+  margin-left: auto;
+  cursor: pointer;
+  outline: none;
+  font-weight: 700;
+}
+.modal-btn__theory:hover, .modal-btn__start:hover {
+  color: #ece6e6;
+}
+.modal-btn__start {
+  margin-top: 10px;
+  background-color: #fff;
+  color: #ff6464;
+  transition: all 0.5s;
+  border: 2px solid transparent;
+}
+.modal-btn__start:hover {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+/*# sourceMappingURL=style.css.map */

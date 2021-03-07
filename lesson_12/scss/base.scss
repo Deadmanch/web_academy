@@ -1,0 +1,34 @@
+@import './mixins';
+
+html,
+body {
+  overflow-x: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p,
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul,
+li {
+  list-style: none;
+}
+
+html {
+  @include html-text;
+}
