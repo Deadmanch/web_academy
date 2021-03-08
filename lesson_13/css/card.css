@@ -6,8 +6,7 @@
     border-radius: 5px;
   }
   
-  .product-card::after {
-    content: "SALE";
+  .product-card__genre{
     position: absolute;
     background: #ff0000;
     transform: rotate(-36.57deg);

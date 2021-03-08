@@ -4,6 +4,7 @@ function createMediaCard (root, data) {
     container.classList.add('product-card');
     const content = `
     <div class="product-card__rating">${data.rating}</div>
+    <div class="product-card__genre">${data.genre.toUpperCase()}</div>
         <img class="product-card__img" src="${data.preview}" alt="Poster" >
         <div class="product-card__bottom">
             <h2 class="product-card__title">${data.title}</h2>
