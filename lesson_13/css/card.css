@@ -43,13 +43,14 @@
   }
   
   .product-card__title {
-    font-size: 40px;
+    font-size: 25px;
     color: #ffffff;
   }
   
   .product-card_bottom__subtext {
+      display: block;
     margin-top: 11px;
-    font-size: 15px;
+    font-size: 12px;
     color: #ffffff;
     line-height: 18px;
   }
